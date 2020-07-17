@@ -1,4 +1,4 @@
-package interfaces
+package grgdplugincontracts
 
 import (
 	"github.com/urfave/cli/v2"

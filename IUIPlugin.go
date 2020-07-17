@@ -1,4 +1,4 @@
-package interfaces
+package grgdplugincontracts
 
 // IUIPlugin ...
 type IUIPlugin interface {

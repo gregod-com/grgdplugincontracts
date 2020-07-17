@@ -1,4 +1,4 @@
-package interfaces
+package grgdplugincontracts
 
 // IGrgdPlugin ...
 type IGrgdPlugin interface {

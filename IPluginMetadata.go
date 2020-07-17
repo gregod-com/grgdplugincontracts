@@ -1,4 +1,4 @@
-package interfaces
+package grgdplugincontracts
 
 // IPluginMetadata ...
 type IPluginMetadata interface {
