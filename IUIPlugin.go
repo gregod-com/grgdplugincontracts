@@ -8,4 +8,5 @@ type IUIPlugin interface {
 	PrintWorkloadOverview(i interface{})
 	PrintTable(i interface{}, heads []string, rows [][]string) interface{}
 	Println(i interface{}, str interface{}) interface{}
+	YesNoQuestion(i interface{}, question string) bool
 }
