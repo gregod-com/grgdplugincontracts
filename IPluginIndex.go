@@ -7,7 +7,7 @@ import (
 // IPluginIndex interface ...
 type IPluginIndex interface {
 	// Update persist all changes made to entries in pluginlist
-	Update() error
+	Update(allMetadata map[string]IPluginMetadata) error
 	// GetConfigPath return location of config file for persistence
 	GetConfigPath() string
 	// GetPluginList return a map of all plugins
