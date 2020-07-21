@@ -11,11 +11,11 @@ type IPluginIndex interface {
 	// GetConfigPath return location of config file for persistence
 	GetConfigPath() string
 	// GetPluginList return a map of all plugins
-	GetPluginList() []PluginMetadata
+	GetPluginList() map[string]PluginMetadataImpl
 	// GetPluginList return a map of all active plugins
-	GetPluginListActive() []IPluginMetadata
+	GetPluginListActive() map[string]PluginMetadataImpl
 	// GetPluginList return a map of all inactive plugins
-	GetPluginListInactive() []IPluginMetadata
+	GetPluginListInactive() map[string]PluginMetadataImpl
 	// GetLastChecked ...
 	GetLastChecked() time.Time
 	// AddPlugin add a new plugin to the list
