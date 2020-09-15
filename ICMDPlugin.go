@@ -3,5 +3,5 @@ package grgdplugincontracts
 // ICMDPlugin ...
 type ICMDPlugin interface {
 	// GetCommands returns all urfave cli commands implemented by this plugin
-	GetCommands(i interface{}) []interface{}
+	GetCommands(i interface{}) interface{}
 }
